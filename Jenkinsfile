@@ -15,7 +15,6 @@ pipeline {
                     branches: [[name: '*/master']],
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [[$class: 'CleanBeforeCheckout']],
-                    submoduleCfg: [],
                     userRemoteConfigs: [[url: 'https://github.com/Bodiok007/18-app.git']]
                 ])
             }
